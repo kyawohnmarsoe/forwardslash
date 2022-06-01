@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<!-- saved from url=(0079)https://www.w3schools.com/w3css/tryw3css_templates_interior_design.htm#showcase -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>W3.CSS Template</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./Template_files/w3.css">
+<link rel="stylesheet" href="./Template_files/css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+.packages .w3-half{width:32.99999%;}
+@media (min-width: 601px){
+  #packages .w3-half{width:32.99999%;}
+}
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index: 3; width: 300px; font-weight: bold; display: none;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+ 
+    <h3 class="w3-padding-64"><b> "/" <br> forward slash;</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Us</a> 
+    <a href="#website" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Web</a> 
+    <a href="#digital" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Digital Marketing</a> 
+    <a href="#autocad" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Autocad</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Company Name</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor: pointer; display: none;" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+    <!-- Header -->
+    <div class="w3-container" style="margin-top:80px" id="home">
+      <h1 class="w3-jumbo"><b>Forward Slash</b></h1>
+      <!-- <h1 class="w3-xxxlarge w3-text-red"><b>Our Services</b></h1> -->
+      <hr style="width:50px;border:5px solid #7f6542" class="w3-round">
+    </div>
+
+      <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://source.unsplash.com/Zyx1bK9mqmA/600x200" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Los Angeles</h3>
+      <p><b>We had the best time playing at Venice Beach!</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://source.unsplash.com/pKRNxEguRgM/600x200" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>New York</h3>
+      <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://source.unsplash.com/SyRlD4s_amw/600x200" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Chicago</h3>
+      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+    </div>
+  </div>
+    
+    <!-- Photo grid (modal) -->
+    <div class="w3-row-padding packages" style="display: none;">
+      <div class="w3-half">
+        <a href="#about"> 
+          <img src="https://source.unsplash.com/Zyx1bK9mqmA/500x300" style="width:100%" alt="Concrete meets bricks"> 
+        </a>
+        <a href="#autocad"> 
+          <img src="https://source.unsplash.com/DfMMzzi3rmg/500x300" style="width:100%" alt="Concrete meets bricks"> 
+        </a>
+       
+      </div>
+  
+      <div class="w3-half">
+        <a href="#website"> 
+          <img src="https://source.unsplash.com/pKRNxEguRgM/500x300" style="width:100%" alt="Concrete meets bricks"> 
+        </a>
+        <a href="#packages"> 
+          <img src="https://source.unsplash.com/SyRlD4s_amw/500x300" style="width:100%" alt="Light, white and tight scandinavian design"> 
+        </a>
+       
+      </div>
+
+      <div class="w3-half">
+        <a href="#digital"> 
+          <img src="https://source.unsplash.com/pKRNxEguRgM/500x300" style="width:100%" alt="Concrete meets bricks"> 
+        </a>
+        <a href="#contact"> 
+          <img src="https://source.unsplash.com/SyRlD4s_amw/500x300" style="width:100%" alt="Light, white and tight scandinavian design"> 
+        </a>
+       
+      </div>
+    </div>
+
+      <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px;display: none;">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Services.</b></h1>
+    <hr style="width:50px;border:5px solid #7f6542" class="w3-round">
+    <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
+    <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </div>
+
+    <!-- Designers -->
+    <div class="w3-container" id="about" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-red"><b>About Us</b></h1>
+      <hr style="width:50px;border:5px solid #7f6542" class="w3-round">
+      <p>The best team in the world.</p>
+      <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <p><b>Our designers are thoughtfully chosen</b>:</p>
+    </div>
+
+      <!-- The Team -->
+  <div class="w3-row-padding w3-grayscale">
+    
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="https://scontent.ffjr1-1.fna.fbcdn.net/v/t39.30808-6/279617005_308933934731703_6977550971582446353_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=3rLxnpk_9jQAX9ZOlPh&_nc_ht=scontent.ffjr1-1.fna&oh=00_AT_MfwN7hXEY4RNDhPsIFhy-3aF5Yx4xAQEcXJBDVLyRJg&oe=629AB7D1" alt="Jane" style="width:100%;height:300px;">
+        <div class="w3-container">
+          <h3>Ohnmar</h3>
+          <p class="w3-opacity">Web Developer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="https://scontent.ffjr1-3.fna.fbcdn.net/v/t1.6435-9/49342971_102485550839508_6295385985270153216_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=19026a&_nc_ohc=yAMb8eq36qoAX-XHRFK&_nc_ht=scontent.ffjr1-3.fna&oh=00_AT8tOr72aHP8poStnQW46MPhdBbr_atAbP7c3tnx6AxlFg&oe=62BA0574" alt="Mike" style="width:100%;height:300px;">
+        <div class="w3-container">
+          <h3>Nway Yu</h3>
+          <p class="w3-opacity">Digital Specialist</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="https://scontent.ffjr1-3.fna.fbcdn.net/v/t1.6435-9/109931081_1387137814813239_6374914599904658860_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=qppr_T27CQUAX-nXrRq&tn=dV0O79gMrZuxClZD&_nc_ht=scontent.ffjr1-3.fna&oh=00_AT_NQr5tGd11IgdDvtuJUvPRWwesXS2qSAkj97CTVfAfAg&oe=62B9A170" alt="John" style="width:100%;height:300px;">
+        <div class="w3-container">
+          <h3>Sandi</h3>
+          <p class="w3-opacity">Auto CAD Designer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="website">
+    <h1 class="w3-jumbo"><b>Web</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Portfolios</b></h1>
+    <hr style="width:50px;border:5px solid #7f6542" class="w3-round">
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding" >
+    <div class="w3-half">
+      <video class="top-60" style="width: 100%;" autoplay="autoplay" loop="loop" muted="" controls="controls"><source src="https://mostdigital.com.sg/wp-content/uploads/2020/10/Pokka-Website_Slide3-MacBook.mp4"></video>
+      <video class="top-60" style="width: 100%;" autoplay="autoplay" loop="loop" muted="" controls="controls"><source src="https://mostdigital.com.sg/wp-content/uploads/2020/10/Fujitsu-Website_Slide3-MacBook.mp4" type="video/mp4"></video>
+    </div>
+
+    <div class="w3-half">
+      <video class="top-60" style="width: 100%;" autoplay="autoplay" loop="loop" muted="" controls="controls"><source src="https://mostdigital.com.sg/wp-content/uploads/2020/10/DNHybrid-Website_Slide3-MacBook-movie_R6.mp4" type="video/mp4"></video>
+      <video class="top-60" style="width: 100%;" autoplay="" muted="" controls="" loop=""><source src="https://mostdigital.com.sg/wp-content/uploads/2020/10/Kuhlman_Website_Slide3-MacBook.mp4" type="video/mp4"></video>
+    </div>
+  </div>
+  <center><button class="w3-button w3-red w3-padding-large w3-hover-black" style="margin-top: 20px;">More Portfolios ...</button></center>
+
+
+    <!-- Photo grid (modal) -->
+    <div class="w3-row-padding" style="display: none;">
+      <div class="w3-half">
+        <img src="./Template_files/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+        <img src="./Template_files/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+        <img src="./Template_files/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+      </div>
+  
+      <div class="w3-half">
+        <img src="./Template_files/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+        <img src="./Template_files/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
+        <img src="./Template_files/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
+      </div>
+    </div>
+
+
+
+
+    <!-- Header -->
+    <div class="w3-container" style="margin-top:80px" id="digital">
+      <h1 class="w3-jumbo"><b>Digital</b></h1>
+      <h1 class="w3-xxxlarge w3-text-red"><b>Staragies</b></h1>
+      <hr style="width:50px;border:5px solid #7f6542" class="w3-round">
+    </div>
+    
+    <!-- Photo grid (Digital) -->
+    <div class="w3-row-padding">
+      <div class="w3-half">
+        <img src="./Template_files/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+        <img src="./Template_files/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+         </div>
+  
+      <div class="w3-half">
+        <img src="./Template_files/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+        <img src="./Template_files/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
+        </div>
+    </div>
+  <center><button class="w3-button w3-red w3-padding-large w3-hover-black" style="margin-top: 20px;">More Designs ...</button></center>
+
+  
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display=&#39;none&#39;">
+      <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+      <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption"></p>
+      </div>
+    </div>
+
+     <!-- Header -->
+     <div class="w3-container" style="margin-top:80px" id="autocad">
+      <h1 class="w3-jumbo"><b>Autocad</b></h1>
+      <h1 class="w3-xxxlarge w3-text-red"><b>Designs</b></h1>
+      <hr style="width:50px;border:5px solid #7f6542" class="w3-round">
+    </div>
+    
+    <!-- Photo grid (Autocad) -->
+    <div class="w3-row-padding">
+      <div class="w3-half">
+        <img src="https://scontent.ffjr1-5.fna.fbcdn.net/v/t39.30808-6/281730943_1893628770830805_2090947935075765753_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=0JBaDHHivPUAX-avOOe&_nc_ht=scontent.ffjr1-5.fna&oh=00_AT91p0wSxKf0cEEY90_jAS5Jxb49Ym_zIZnx1eqKeYVzsQ&oe=629B8211" style="width:100%;height:300px; border:2px solid #7f6542;" onclick="onClick(this)" alt="Concrete meets bricks">
+        <img src="https://scontent.ffjr1-6.fna.fbcdn.net/v/t39.30808-6/277464627_147703244410543_8842132588460934627_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=RuETU4xHCcgAX-1byl8&_nc_ht=scontent.ffjr1-6.fna&oh=00_AT927bIAYAEubcIL1POtBIs2Wt5K7Jftlapy0LF8j2eoeQ&oe=629AE0ED" style="width:100%;height:300px; border:2px solid #7f6542;" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      </div>
+  
+      <div class="w3-half">
+        <img src="https://scontent.ffjr1-6.fna.fbcdn.net/v/t39.30808-6/268252421_130337462813788_2577797882644941469_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=90TNlQPMrbMAX9F3sRR&_nc_ht=scontent.ffjr1-6.fna&oh=00_AT9xDm9nnfBNomkVMN1XwG1Jc_kn8w8CC_i8goc-tnlCyA&oe=6299E556" style="width:100%;height:300px; border:2px solid #7f6542;" onclick="onClick(this)" alt="Scandinavian design">
+        <img src="https://scontent.ffjr1-2.fna.fbcdn.net/v/t1.6435-9/90756147_1299174060276282_1574697755614380032_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=IVRy2WY96x8AX803ETs&_nc_ht=scontent.ffjr1-2.fna&oh=00_AT-5PGUdKMUX4z8NdKM8Xu233JuW5dYdnOs4uZM0uUMl6g&oe=62BC4CAF" style="width:100%;height:300px; border:2px solid #7f6542;" onclick="onClick(this)" alt="Scandinavian design">
+      </div>
+    </div>
+  <center><button class="w3-button w3-red w3-padding-large w3-hover-black" style="margin-top: 20px;">More Designs ...</button></center>
+
+  
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display=&#39;none&#39;">
+      <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+      <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption"></p>
+      </div>
+    </div>
+
+
+
+
+  <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="packages" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Packages.</b></h1>
+    <hr style="width:50px;border:5px solid #7f6542" class="w3-round">
+    <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+  </div>
+
+  <div class="w3-row-padding packages">
+    <div class="w3-half w3-margin-bottom">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Web</li>
+        <li class="w3-padding-16">Single Page Application</li>
+        <li class="w3-padding-16">Microsite</li>
+        <li class="w3-padding-16">Content Management System</li>
+        <li class="w3-padding-16">Ecommerce</li>
+        <li class="w3-padding-16">Web Games</li>
+        <li class="w3-padding-16">
+          <span class="w3-opacity">start from</span>
+          <h2>$ 299</h2>
+          
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-red w3-padding-large w3-hover-black">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+        
+    <div class="w3-half">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-red w3-xlarge w3-padding-32" style="background-color: #a6607c!important;">Digital Marketing</li>
+        <li class="w3-padding-16">Socialmedia</li>
+        <li class="w3-padding-16">Commercial</li>
+        <li class="w3-padding-16">Google Ads</li>
+        <li class="w3-padding-16">Online Campaign</li>
+        <li class="w3-padding-16">Creative Marketing</li>
+        <li class="w3-padding-16">
+          <span class="w3-opacity">start from</span>
+          <h2>$ 259</h2>
+          
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-red w3-padding-large w3-hover-black">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-half">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-red w3-xlarge w3-padding-32" style="background-color: #543034!important;">Autocad</li>
+        <li class="w3-padding-16">Building Design</li>
+        <li class="w3-padding-16">Wearhouse</li>
+        <li class="w3-padding-16">2D/3D</li>
+        <li class="w3-padding-16">Cutting</li>
+        <li class="w3-padding-16">Estimate</li>
+        <li class="w3-padding-16">
+          <span class="w3-opacity">start from</span>
+          <h2>$ 189</h2>
+         
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-red w3-padding-large w3-hover-black">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid #7f6542" class="w3-round">
+
+    <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 ">
+        <div class="w3-large w3-margin-bottom">
+          <i class="fa fa-map-marker" style="width:30px"></i> Dubai, UAE<br>
+          <i class="fa fa-phone" style="width:30px"></i> Phone: +971 502747296<br> 
+        </div>
+       
+
+        <div class="w3-large w3-margin-bottom">
+          <i class="fa fa-map-marker" style="width:30px"></i> Yangon, Myanmar<br>
+          <i class="fa fa-phone" style="width:30px"></i> Phone: +95 151515<br>
+         
+        </div>
+
+        <div class="w3-large w3-margin-bottom">
+          <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+        </div>
+
+
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required="" name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required="" name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required="" name="Message">
+          <!-- <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button> -->
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom w3-hover-black w3-section">Send Message</button>
+
+        </form>
+      </div>
+    </div>
+
+
+    <form action="https://www.w3schools.com/action_page.php" target="_blank" style="display: none;">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required="">
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required="">
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required="">
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom w3-hover-black">Send Message</button>
+    </form>  
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+<script>
+  // Automatic Slideshow - change image every 4 seconds
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+  }
+  
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  var modal = document.getElementById('ticketModal');
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+
+</body></html>
